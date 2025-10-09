@@ -1,0 +1,9 @@
+#
+# Float Namelist, 2400 seconds for traj(ectory) outputs as in 'data' file
+# *********************
+ &FLT_NML
+ flt_int_traj=2400.,
+ flt_int_prof=24000.,
+ flt_noise=0.0,
+ flt_file='ini_posV02.bin',
+ &

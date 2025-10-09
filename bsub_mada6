@@ -1,0 +1,21 @@
+#!/bin/bash
+#BSUB -J test 
+#BSUB -o test.out 
+#BSUB -e test.err 
+#BSUB -n 1,60
+#BSUB -q normal
+source /shared/intel/bin/compilervars.sh intel64
+cp --backup=numbered  test.out test.out.old
+cp --backup=numbered  test.err test.out.err
+rm test.out
+rm test.err
+touch test.out
+touch test.err
+#Intel FORTRAN
+export LD_LIBRARY_PATH=/shared/netcdf-4.1.2-intel/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH
+export I_MPI_DEBUG=7
+export I_MPI_FABRICS_LIST=ofa
+set
+mpirun -perhost 12  -np 60 /model_output3/intwave/SIMS/E_MAR_NhRbSlSc_T3d/mitgcmuv
+

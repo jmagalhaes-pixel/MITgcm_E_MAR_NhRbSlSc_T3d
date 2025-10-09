@@ -1,0 +1,8 @@
+# =====================================================================
+# | Parameters for Pacanowski&Philander (1981) vertical mixing scheme |
+# =====================================================================
+ &PP81_PARM01
+ PPwriteState=.TRUE.,
+ PPtaveFreq=1200.0, 
+ 
+ &
