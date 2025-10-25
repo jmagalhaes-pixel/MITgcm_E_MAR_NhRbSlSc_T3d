@@ -44,7 +44,7 @@ Small numerical differences may arise on different architectures.
 ---
 
 ## Acknowledgments
-Original source: Code originally developed by Professor Maarten Buijsman from the University of Southern Mississippi (USA) and tailored to simulate ISWs in the Mascarene Ridge of the Indian Ocean by Professor José da Silva and Dr. Jorge Magalhaes from the University of Porto (Portugal).  
+Code originally developed by Professor Maarten Buijsman from the University of Southern Mississippi (USA) and used to simulate ISWs in the Mascarene Ridge of the Indian Ocean together with Professor José da Silva and Prof. Jorge Magalhaes from the University of Porto (Portugal).  
 
 **Contact:** [jmagalhaes@fc.ul.pt](mailto:jmagalhaes@fc.ul.pt)
 
